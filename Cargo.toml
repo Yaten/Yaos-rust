@@ -1,0 +1,11 @@
+[package]
+name = "yaos"
+version = "0.1.0"
+edition = "2018"
+authors = ["Yaten <contact@yaten.dev>"]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
